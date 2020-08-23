@@ -6,6 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a{
+    color: #cccccc;
+}
 
 a,
 button {
@@ -639,21 +642,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
-
 .container {
     max-width: 1000px;
 }
@@ -704,10 +692,6 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
 
 h3 {
     font-size: 15px;
@@ -781,7 +765,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #cecece!important;
 }
 
 .btn-atomic-tangerine {
@@ -829,6 +813,10 @@ h4 {
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("./img/rsz_atlanta_made_sign_orange.jpg");
+}
+
+.bold {
+    font-weight: 800;
 }
 
 @media (max-width: 1024px) {
