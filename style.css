@@ -58,6 +58,9 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+.bloc-own {
+    padding: 50px 50px 100px 50px;
+}
 
 .bg-center,
 .bg-l-edge,
@@ -198,7 +201,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .d-bloc .panel button:hover,
@@ -284,7 +287,10 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    margin-bottom: 20px;
 }
+
+
 
 #bloc-2-services p {
     font-size: 11px;
@@ -293,6 +299,9 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+}
+.navbar1 {
+    text-align: center;
 }
 
 .navbar-brand {
@@ -337,7 +346,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background-color: transpar;
+    color: black;
 }
 
 .navbar-toggle {
@@ -360,12 +370,19 @@ a:hover {
 
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
-    float: right;
+    float: left;
     position: relative;
     z-index: 2;
 }
+.dropdown-menu {
+    background-color: #364577!important;
+}
+.dropdown-menu > ul > li > a {
+    color: rgb(180, 180, 180)!important;
+}
 
 @media (min-width: 768px) {
+    
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -404,6 +421,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    
 }
 
 .nav > li > .dropdown a {
@@ -765,7 +783,7 @@ h4 {
 }
 
 .tc-white {
-    color: #cecece!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -920,7 +938,7 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: rgba(54, 69, 119, 0.414);
         text-align: left;
         padding-left: 15px;
         width: 100%;
@@ -1020,17 +1038,24 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .row-element {
+        display: inline-block;
+        padding: 0 auto;
+        width: 2em;
+        margin: 34px;
+    
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .social {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
