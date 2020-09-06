@@ -939,8 +939,8 @@ h4 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(54, 69, 119, 0.414);
-        text-align: left;
-        padding-left: 15px;
+        text-align: center;
+        /* padding-left: 15px; */
         width: 100%;
     }
     .nav > li:hover {
@@ -1042,7 +1042,7 @@ h4 {
         display: inline-block;
         padding: 0 auto;
         width: 2em;
-        margin: 34px;
+        margin: 30px;
     
     }
     .bloc-mob-center-text {
